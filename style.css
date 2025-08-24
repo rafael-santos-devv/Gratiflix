@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Lilita One", sans-serif;
+    color: white;
 }
 
 body {
@@ -20,14 +21,14 @@ body {
     background-color: transparent;
     border: 2px solid white;
     border-radius: 10px;
-    color: white;   
+    color: white;
     padding: 30px 40px;
 }
 
 .container h1 {
     font-size: 36px;
     text-align: center;
-} 
+}
 
 .input-box {
     position: relative;
@@ -56,8 +57,10 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
-    margin-top: 20px;     /* 👈 Espaço entre a senha e esta seção */
-    margin-bottom: 40px;  /* 👈 Espaço entre esta seção e o botão */
+    margin-top: 20px;
+    /* 👈 Espaço entre a senha e esta seção */
+    margin-bottom: 40px;
+    /* 👈 Espaço entre esta seção e o botão */
 }
 
 
@@ -82,7 +85,8 @@ body {
     color: black;
     font-weight: 600;
     box-shadow: 0 0 10px black;
-    margin-bottom: 20px; /* Espaço entre botão e "Cadastre-se" */
+    margin-bottom: 20px;
+    /* Espaço entre botão e "Cadastre-se" */
 }
 
 .register-link {
@@ -117,19 +121,72 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    text-align: center;
+    color: white;
 }
 
-.menu-icon {
-    width: 30px;
-    height: 22px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
+.trailer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    /* espaço entre os vídeos (horizontal e vertical) */
+    padding: 20px 40px;
+    margin-top: 200px;
+    /* já tinha o espaçamento de cima */
+    padding-left: 40px;
+    /* 👈 espaço da borda esquerda */
+    padding-right: 40px;
 }
 
-.menu-icon span {
-    height: 4px;
-    background-color: white;
-    border-radius: 2px;
+.trailer2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    /* espaço entre os vídeos (horizontal e vertical) */
+    padding: 20px 40px;
+    margin-top: 200px;
+    /* já tinha o espaçamento de cima */
+    padding-left: 40px;
+    /* 👈 espaço da borda esquerda */
+    padding-right: 40px;
+}
+
+.trailer3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    padding: 20px 40px;
+    margin-top: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.trailer-title {
+    position: absolute;
+    top: 20px;
+    /* altura no topo */
+    left: 50%;
+    /* joga pro 
+    transform: translateX(-50%);
+    /* ajusta para centralizar certinho */
+    font-size: 28px;
+    /* ajuste de tamanho */
+    color: white;
+    margin: 0;
+}
+
+.form-container {
+    align-items: center;
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    margin-top: 50px;
+    width: 450px;     
+    margin: 0 auto;
+    margin-top: 50px;
 }
